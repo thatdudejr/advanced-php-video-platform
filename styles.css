@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+#upload-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#video-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    margin: 20px auto;
+}
+
+.video-container {
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.thumbnail {
+    width: 100%;
+    height: auto;
+}
+
+.video-details {
+    padding: 10px;
+}
+
+.video-details p {
+    margin: 0;
+    font-size: 14px;
+    color: #444;
+}
+
+.likes-dislikes {
+    margin-top: 10px;
+}
+
+.like-button, .dislike-button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.like-count, .dislike-count {
+    margin: 0 5px;
+    font-size: 14px;
+    color: #888;
+}
+
