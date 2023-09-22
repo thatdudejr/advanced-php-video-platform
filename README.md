@@ -70,4 +70,4 @@ We welcome contributions to php-js! To contribute:
 
 ## License
 
-This project is licensed under the [MIT] License.
+This project is licensed under the [MIT] License. See the [LICENSE.md] file for details.
